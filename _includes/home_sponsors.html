@@ -1,11 +1,26 @@
+{% assign platinumSponsors = site.data.sponsors | where:"level","Platinum" | sort: 'name' %}
 {% assign goldSponsors = site.data.sponsors | where:"level","Gold" | sort: 'name' %}
 {% assign silverSponsors = site.data.sponsors | where:"level","Silver" | sort: 'name' %}
-{% assign bronzeSponsors = site.data.sponsors | where:"level","Bronze" | sort: 'name' %}
 {% assign socialEventSponsors = site.data.sponsors | where:"level","Social event" | sort: 'name' %}
-{% if goldSponsors.size > 0 or silverSponsors.size > 0 or bronzeSponsors.size > 0 or socialEventSponsors.size > 0 %}
+{% if goldSponsors.size > 0 or silverSponsors.size > 0 or platinumSponsors.size > 0 or socialEventSponsors.size > 0 %}
     <div class="sponsors">
         <div class="head">OUR SPONSORS</div>
-    
+
+    {% if platinumSponsors.size > 0 %}
+        <div class="sponsors subhead">Platinum sponsors</div>
+        <div class="images">
+            {% for sponsor in platinumSponsors %}
+                <a href="{{ sponsor.url }}" target="_blank">
+                    {% if sponsor.image %}
+                        <div class="img" style="background-image: url(&quot;{{ site.baseurl }}/assets/images/sponsors/{{sponsor.image}}&quot;);"></div>
+                    {% else %}
+                        {{ sponsor.name }}
+                    {% endif %}
+                </a>
+            {% endfor %}
+        </div>
+    {% endif %}
+
     {% if goldSponsors.size > 0 %}
         <div class="sponsors subhead">Gold sponsors</div>
         <div class="images">
@@ -25,21 +40,6 @@
         <div class="sponsors subhead">Silver sponsors</div>
         <div class="images">
             {% for sponsor in silverSponsors %}
-                <a href="{{ sponsor.url }}" target="_blank">
-                    {% if sponsor.image %}
-                        <div class="img" style="background-image: url(&quot;{{ site.baseurl }}/assets/images/sponsors/{{sponsor.image}}&quot;);"></div>
-                    {% else %}
-                        {{ sponsor.name }}
-                    {% endif %}
-                </a>
-            {% endfor %}
-        </div>
-    {% endif %}
-
-    {% if bronzeSponsors.size > 0 %}
-        <div class="sponsors subhead">Bronze sponsors</div>
-        <div class="images">
-            {% for sponsor in bronzeSponsors %}
                 <a href="{{ sponsor.url }}" target="_blank">
                     {% if sponsor.image %}
                         <div class="img" style="background-image: url(&quot;{{ site.baseurl }}/assets/images/sponsors/{{sponsor.image}}&quot;);"></div>

@@ -1,0 +1,48 @@
+<section class="speakers">
+    <div class="title">
+        Confirmed speakers for December 2
+    </div>
+    <div class="speaker-ar">
+        {% if site.data.conference[0].title %}
+        
+            {% assign speakers = site.data.conference | sort: 'time' %}
+            {% for speaker in speakers %}
+                {% assign fullname="" %}
+                    {% if speaker.name2 %} 
+                        {% capture fullname %}{{speaker.name}} and {{speaker.name2}}{% endcapture %}
+                    {% else %}
+                        {% capture fullname %}{{speaker.name}}{% endcapture %}
+                    {% endif %}
+                {% if speaker.confirmed %}
+                <div class="highlight">
+                        <div class="name">{{fullname}}</div>
+                </div>
+                {% endif %}
+            {% endfor %}
+        
+        {% endif %}
+    </div>
+    <div class="space"></div>
+    <div class="title">
+        Confirmed trainers for December 3
+    </div>
+    <div class="speaker-ar">
+        {% if site.data.training[0].name %}
+            {% assign trainers = site.data.training | sort: 'time' %}
+            {% for trainer in trainers %}
+                {% assign fullname="" %}
+                    {% if trainer.name2 %} 
+                        {% capture fullname %}{{trainer.name}} and {{trainer.name2}}{% endcapture %}
+                    {% else %}
+                        {% capture fullname %}{{trainer.name}}{% endcapture %}
+                    {% endif %}
+                {% if trainer.confirmed %}
+                <div class="highlight">
+                        <div class="name">{{fullname}}</div>
+                </div>
+                {% endif %}
+            {% endfor %}
+        
+        {% endif %}
+    </div>
+</section>
