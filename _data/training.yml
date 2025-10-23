@@ -23,3 +23,35 @@
     urltag  : 
     display : yes
     confirmed: yes
+
+  - image   : 
+    day     : 3/12/2025
+    time    : 
+    name    : Steven Wierckx
+    bio     : 
+    title   : 
+    abstract: 
+    feed    :
+    url     : 
+    linkedin: 
+    x_handle:
+    reqs    : 
+    urltag  : 
+    display : yes
+    confirmed: yes
+
+  - image   : 
+    day     : 3/12/2025
+    time    : 
+    name    : Nariman Aga-Tagiyev
+    bio     : 
+    title   : 
+    abstract: 
+    feed    :
+    url     : 
+    linkedin: 
+    x_handle:
+    reqs    : 
+    urltag  : 
+    display : yes
+    confirmed: yes
