@@ -19,22 +19,28 @@
 #   display : yes
 #   confirmed: yes
 
-  - day     : 2/12/2025
+  - type    : info
+    day     : 2/12/2025
     time    : 9:00 - 17:00
     title   : Conference
-
-  - day     : 2/12/2025
+    
+  - type    : break
+    day     : 2/12/2025
     time    : 08:30 - 09:00
-    title   : Registration booth and morning coffee
+    title   : Registration booth and welcome coffee
+    display : yes
 
-  - day     : 2/12/2025
+  - type    : break
+    day     : 2/12/2025
     time    : 09:00 - 09:15
     name    : Owasp BeNeLux Team
     title   : Opening / Welcome
-
-  - image   : Vera-Rim.jpg
+    display : yes
+    
+  - type    : talk
+    image   : Vera-Rim.jpg
     day     : 2/12/2025
-    time    : 
+    time    : 09:15 - 10:00
     name    : Vera Rimmer
     bio     : >-
               Dr. Vera Rimmer is a research expert at the DistriNet research group at 
@@ -64,12 +70,13 @@
     display : yes
     confirmed: yes
 
-  - image   : 
+  - type    : talk
+    image   : 
     day     : 2/12/2025
-    time    : 
+    time    : 15:45 - 16:30
     name    : Tobie Langel
     bio     : 
-    title   : 
+    title   : Coming soon...
     abstract: 
     linkedin: 
     x_handle: 
@@ -79,9 +86,10 @@
     display : yes
     confirmed: yes
 
-  - image   : Siegfried-Hollerer.png
+  - type    : talk
+    image   : Siegfried-Hollerer.png
     day     : 2/12/2025
-    time    : 
+    time    : 11:15 - 12:00
     name    : Siegfried Hollerer
     bio     : >-
               Siegfried has seven years of experience as a penetration tester, 
@@ -135,9 +143,10 @@
     display : yes
     confirmed: yes
 
-  - image   : Avi-Douglen.png
+  - type    : talk
+    image   : Avi-Douglen.png
     day     : 2/12/2025
-    time    : 
+    time    : 16:30 - 17:15
     name    : Avi Douglen
     bio     : >-
               Avi Douglen has been building secure applications for decades, and is *obsessed* with 
@@ -168,9 +177,10 @@
     display : yes
     confirmed: yes
 
-  - image   : Efthymios-Lalas.png
+  - type    : talk
+    image   : Efthymios-Lalas.png
     day     : 2/12/2025
-    time    : 
+    time    : 10:00 - 10:45
     name    : Efthymios Lalas
     bio     : >-
               Efthymios has been with the European Commission in Luxembourg since 2014 and is 
@@ -207,9 +217,10 @@
     display : yes
     confirmed: yes
 
-  - image   : Aram-Hovsepyan.jpg
+  - type    : talk
+    image   : Aram-Hovsepyan.jpg
     day     : 2/12/2025
-    time    : 
+    time    : 13:45 - 14:30
     name    : Aram Hovsepyan
     bio     : >-
               Aram is the founder and the CEO of Codific. With over 15 years of application security 
@@ -247,9 +258,10 @@
     display : yes
     confirmed: yes
 
-  - image   : Elar-Lang.jpg
+  - type    : talk
+    image   : Elar-Lang.jpg
     day     : 2/12/2025
-    time    : 
+    time    : 14:30 - 15:15
     name    : Elar Lang
     bio     : >-
               Elar Lang is a web application security specialist and enthusiast who has been working for 
@@ -287,9 +299,10 @@
     display : yes
     confirmed: yes
 
-  - image   : Olle-E-Johansson.jpg
+  - type    : talk
+    image   : Olle-E-Johansson.jpg
     day     : 2/12/2025
-    time    : 
+    time    : 12:00 - 12:45
     name    : Olle E Johansson
     bio     : >- 
               Olle E. Johansson has over twenty years of experience in telecommunications, VoIP, and 
@@ -318,23 +331,31 @@
     display : yes
     confirmed: yes
 
-  - day     : 2/12/2025
-    time    : 11:00 - 11:30
+  - type    : break
+    day     : 2/12/2025
+    time    : 10:45 - 11:15
     title   : Break
+    display : yes
 
-  - day     : 2/12/2025
-    time    : 13:00 - 14:00
+  - type    : break
+    day     : 2/12/2025
+    time    : 12:45 - 13:45
     title   : Lunch
+    display : yes
 
 
-  - day     : 2/12/2025
-    time    : 15:30 - 16:00
+  - type    : break
+    day     : 2/12/2025
+    time    : 15:15 - 15:45
     title   : Break
+    display : yes
 
-  - day     : 2/12/2025
-    time    : 17:30 - 17:45
+  - type    : break
+    day     : 2/12/2025
+    time    : 17:15 - 17:30
     name    : Owasp BeNeLux Team
     title   : Closing
+    display : yes
 
   # - day     : 2/12/2025
   #   time    : 17:45 - 18:45

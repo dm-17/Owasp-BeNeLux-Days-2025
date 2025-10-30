@@ -105,6 +105,13 @@
     background-color:#f9eaea
 }
 
+.conference-schedule a {
+    color: #00f;
+    text-decoration: underline;
+    cursor:pointer;
+    font-family: inter;
+}
+
 .conference-info {
     font-size: 40px;
     padding: 60px;
@@ -213,18 +220,18 @@
     font-style:italic
 }
 
-.confirmed-speakers .speaker .abstract, .confirmed-speakers .speaker .bio {
+.confirmed-speakers .speaker .abstract, .confirmed-speakers .speaker .bio, .confirmed-speakers .reqs .bio {
     margin-top:1rem
 }
 
-.confirmed-speakers .speaker .abstract h4, .confirmed-speakers .speaker .bio h4 {
+.confirmed-speakers .speaker .abstract h4, .confirmed-speakers .speaker .bio h4, .confirmed-speakers .speaker .reqs h4 {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: .4rem;
     color:#000
 }
 
-.confirmed-speakers .speaker .abstract p, .confirmed-speakers .speaker .bio p {
+.confirmed-speakers .speaker .abstract p, .confirmed-speakers .speaker .bio p, .confirmed-speakers .speaker .reqs p {
     margin-bottom: .5rem;
     font-size: .95rem;
     line-height:1.6
@@ -239,9 +246,9 @@
     text-decoration: none;
     background-color: #007acc;
     color: #fff;
-    padding: .5rem 1rem;
+    padding: .3rem .5rem .1rem .5rem;
     border-radius: 5px;
-    font-size: .9rem;
+    font-size: 2rem;
     transition:background-color .3s ease
 }
 
@@ -375,9 +382,9 @@
         text-decoration: none;
         background-color: #007acc;
         color: #fff;
-        padding: .5rem 1rem;
+        padding: .3rem .5rem .1rem .5rem;
         border-radius: 5px;
-        font-size: .9rem;
+        font-size: 2rem;
         transition:background-color .3s ease
     }
 

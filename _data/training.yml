@@ -1,8 +1,9 @@
 # 03/12/2025
 
-  - image   : olle_e_johansson.jpg
+  - type    : training
+    image   : Olle-E-Johansson.jpg
     day     : 3/12/2025
-    time    : 09:00 - 13:00
+    time    : 09:00 - 17:00
     name    : Olle E. Johansson
     bio     : >-
               Olle E. Johansson is a consultant in the area of realtime communication 
@@ -13,7 +14,7 @@
               CycloneDX Transparency Exchange API standard. Olle is currently a project 
               leader for the Swedish DNS TAPIR project that is building Open Source 
               software for analysing DNS resolver logs and finding bad actors. 
-    title   : 
+    title   : Coming soon...
     abstract: 
     feed    :
     url     : 
@@ -24,9 +25,10 @@
     display : yes
     confirmed: yes
 
-  - image   : Steven-Wierckx.png
+  - type    : training
+    image   : Steven-Wierckx.png
     day     : 3/12/2025
-    time    : 
+    time    : 09:00 - 17:00
     name    : Steven Wierckx
     bio     : >-
               I’m a secure development life-cycle security (SDLC) specialist with more 
@@ -71,9 +73,10 @@
     display : yes
     confirmed: yes
 
-  - image   : Nariman-Aga-Tagiyev.jpg
+  - type    : training
+    image   : Nariman-Aga-Tagiyev.jpg
     day     : 3/12/2025
-    time    : 
+    time    : 09:00 - 17:00
     name    : Nariman Aga-Tagiyev
     bio     : >-
               Nariman Aga-Tagiyev is an Application Security Architect with over two 

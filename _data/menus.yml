@@ -1,17 +1,20 @@
 # 17/05/2024
 
-#- title: Program
-#  items:
-#  - title: Conference
-#    url  : program/conference
-#  - title: Training
-#    url  : program/training
+
+
+
+- title: Home
+  url  : #
+- title: Program
+  items:
+  - title: Conference
+    url  : program/conference
+  - title: Training
+    url  : program/training
 #  - title: Social event
 #    url  : program/socialevent
 #- title: Location
 #  url  : location/
-- title: Home
-  url  : #
 - title: Sponsor
   url  : sponsor
   items:

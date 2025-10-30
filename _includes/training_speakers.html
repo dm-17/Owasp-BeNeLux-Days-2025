@@ -1,9 +1,9 @@
 <section class="confirmed-speakers">
     <section class="conference-schedule">
-        {% if site.data.conference[0].title %}
-            {% assign speakers = site.data.conference | sort: 'time' %}
+        {% if site.data.training[0].title %}
+            {% assign speakers = site.data.training | sort: 'time' %}
             {% for speaker in speakers %}
-                {% if speaker.type=='talk' %}
+                {% if speaker.type=='training' %}
                     {% if speaker.display %}
                 
                         {% assign fullname="" %}
@@ -32,6 +32,12 @@
                                     <section class="bio">
                                         <h4>Bio:</h4>
                                         <p>{{speaker.bio}}</p>
+                                    </section>
+                                    {% endif %}
+                                    {% if speaker.reqs %}
+                                    <section class="reqs">
+                                        <h4>Requirements:</h4>
+                                        <p>{{speaker.reqs}}</p>
                                     </section>
                                     {% endif %}
                                     {% if speaker.linkedin or speaker.x_handle or speaker.infosec %}
