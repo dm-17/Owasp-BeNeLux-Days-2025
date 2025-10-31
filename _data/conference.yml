@@ -71,7 +71,7 @@
     confirmed: yes
 
   - type    : talk
-    image   : 
+    image   : logo_white.svg
     day     : 2/12/2025
     time    : 15:45 - 16:30
     name    : Tobie Langel

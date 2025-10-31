@@ -18,16 +18,18 @@
 }
 
 .speakers .speaker-ar {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     // grid-template-columns: auto auto auto;
-    grid-template-columns: auto auto;
+    // grid-template-columns: auto auto;
     gap:20px;
-    -ms-grid-column-align: center;
+    // -ms-grid-column-align: center;
 }
 
 .speakers .speaker-ar .speaker {
     padding: 20px;
-    background-color:#fff
+    background-color:#fff;
 }
 
 .speakers .speaker-ar .speaker .icon {
@@ -47,14 +49,72 @@
 
 .speakers .speaker-ar .highlight {
     padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.speakers .speaker-ar .highlight .left {
+    padding-right: 0px;
+    padding-left: 10px;
+    padding-top:10px;
+    // border-left-width: 5px !important;
+    // border-left-style: solid !important;
+    // border-left-color: #4e8d6c;
+    // border-top-width: 5px !important;
+    // border-top-style: solid !important;
+    // border-top-color: #4e8d6c;
+    // margin-right: 10px !important;
 
 }
 
-.speakers .speaker-ar .highlight .name {
-    margin: 10px 0;
+.speakers .speaker-ar .highlight .right {
+    // display: flex;
+    // gap:50px;
+    // padding-left: 10px;
+    // border-top-width: 5px !important;
+    // border-top-style: solid !important;
+    // border-top-color: #d9534f;
+    // -webkit-box-shadow: 4px 4px 13px 0px rgba(0,0,0,0.78); 
+    // box-shadow: 4px 4px 13px 0px rgba(0,0,0,0.78);
+    background-color: #47725b;
+    // margin: 10px auto 0;
+    // margin-left: -20px;
+    width: 200px;
+    // height: 100px;
+    // color: #FFF;
+    padding: 10px;
+    z-index: 1;
+    border-radius: 0.5em;
+    position: relative;
+}
+
+.speakers .speaker-ar .highlight .icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-right: 1em;
+    // margin: auto auto 20px;
+    // margin: 5px 10px 15px 20px;
+    background-size: cover;
+    background-position: top;
+    padding: 5px;
+    z-index: 2;
+    position: relative;
+}
+
+.speakers .speaker-ar .highlight .name,  .speakers .speaker-ar .highlight .name a {
+    margin: 5px 30px 1px 1px;
     color: $white;
     font-family: inter;
-    font-size: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: left;
+}
+
+.speakers .speaker-ar .highlight .rightarrow {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
 }
 
 .speakers .speaker-ar .speaker .content {
