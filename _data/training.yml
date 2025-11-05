@@ -6,16 +6,25 @@
     time    : 09:00 - 17:00
     name    : Olle E. Johansson
     bio     : >-
-              Olle E. Johansson is a consultant in the area of realtime communication 
-              and in embedded system security. He has been active in Open Source for 
-              many years as a developer, evangelist, trainer and speaker in many 
-              conferences worldwide. Olle is a member of the OWASP SBOM Forum and the 
-              OWASP CycloneDX industry working group. He is currently working on the 
-              CycloneDX Transparency Exchange API standard. Olle is currently a project 
-              leader for the Swedish DNS TAPIR project that is building Open Source 
-              software for analysing DNS resolver logs and finding bad actors. 
-    title   : Coming soon...
-    abstract: 
+              Olle E. Johansson has over twenty years of experience in telecommunications, VoIP, and 
+              cybersecurity. Olle is active in open-source projects and standard forums, the founder 
+              of major appsec and network security initiatives, and a specialist for various categories 
+              of software bills of materials (SBOM). These days, SBOMs are everywhere, but not every 
+              SBOM use is equally successful. Olle will tell us how to improve their application, how to 
+              work with them day in and day out and how to develop your own SBOM lifestyle for your 
+              organization.
+    title   : Keep your systems secure - a guide to vulnerability management
+    abstract: >-
+              The EU Cyber regulations and common sense all point to one thing&#58; Keep your systems up 
+              to date. Manufacturers and users needs to be ready to detect, react and mitigate quickly. 
+              We don&#39;t know when, but there will be a next &#34;Log4J&#34; issue and this time we 
+              need to be better prepared. This sounds easy, but involves a lot of systems from asset 
+              management to SBOM inventory, vulnerability intelligence and update awareness and 
+              readiness.<br />
+              In this training we will cover the current state of vulnerability management, go through 
+              Software Bill of Materials, regulation requirements and an overview of the existing 
+              systems - CVE, NVD, EUVD and classifications like CVSS, EPSS and CWE. What works 
+              and what doesn&#39;t work? And what kind of tools are available as Open Source?
     feed    :
     url     : 
     linkedin: https://www.linkedin.com/in/ollejohansson/
