@@ -40,7 +40,7 @@
   - type    : talk
     image   : Vera-Rim.jpg
     day     : 2/12/2025
-    time    : 09:15 - 10:00
+    time    : 16:30 - 17:15
     name    : Vera Rimmer
     bio     : >-
               Dr. Vera Rimmer is a research expert at the DistriNet research group at 
@@ -52,7 +52,7 @@
               Vera is interested in developing comprehensive understanding, reasonable 
               expectations and mitigation of risks of AI in the age of uncontrolled data 
               collection and inference.
-    title   : Navigating the Security Landscape of Modern AI&#58; Promises and Pitfalls
+    title   : Closing Keynote - Navigating the Security Landscape of Modern AI&#58; Promises and Pitfalls
     abstract: >-
               The fast-evolving ecosystem of AI-enabled applications has exposed a complex 
               interplay of vulnerabilities, some stemming from intrinsic pitfalls of 
@@ -146,7 +146,7 @@
   - type    : talk
     image   : Avi-Douglen.png
     day     : 2/12/2025
-    time    : 16:30 - 17:15
+    time    : 09:15 - 10:00
     name    : Avi Douglen
     bio     : >-
               Avi Douglen has been building secure applications for decades, and is *obsessed* with 
@@ -157,7 +157,7 @@
               Global Board of Directors and was the previous Chair of the Board. He also leads the OWASP 
               Israel chapter, created the popular AppSecIL security conference, and co-founded the OWASP 
               Application Privacy project. He also co-authored the Threat Modeling Manifesto. 
-    title   : Get Out of your Bubble&#58; Collaborative Threat Modeling
+    title   : Keynote - Get Out of your Bubble&#58; Collaborative Threat Modeling
     abstract: >-
               Threat modeling by yourself is great - noone is there to tell you you&#39;re wrong. But if 
               you want to discover nontrivial issues that you don&#39;t have on your checklist, you&#39;ll 
