@@ -71,15 +71,62 @@
     confirmed: yes
 
   - type    : talk
-    image   : logo_white.svg
+    image   : Tobie-Langel.jpg
     day     : 2/12/2025
     time    : 15:45 - 16:30
     name    : Tobie Langel
-    bio     : 
-    title   : Coming soon...
-    abstract: 
-    linkedin: 
-    x_handle: 
+    bio     : >-
+              Tobie Langel is the Founder and Principal of UnlockOpen, a boutique consulting 
+              firm that specializes in helping organizations successfully navigate open tech 
+              ecosystems.<br />
+              <br />
+              Through his consulting firm and or pro bono, Tobie advises&#58;<br />
+              <ul>
+              <li>Leading tech firms such as Google, Microsoft, Mozilla, Intel, Cisco, Postman, 
+              Airtable, and GitLab;</li>
+              <li>Industry organizations and Standards Developing Organizations (SDOs) including 
+              OpenSSF, OpenJSF, OASIS Open, Eclipse and W3C;</li>
+              <li>NGOs, philanthropies, and policy makers, among them the Atlantic Council, 
+              OpenForum Europe, the United Nations’ Digital Public Goods Alliance, and the 
+              European Commission&#39;s CRA Expert Group.</li>
+              </ul>
+              <br />
+              Before establishing UnlockOpen, Tobie led Facebook’s standards initiative, 
+              representing the company at W3C and spearheading the Web Platform Tests open source 
+              initiative as a W3C Fellow.<br />
+              <br />
+              Tobie is well-known for having co-maintaining one of the world’s largest JavaScript 
+              libraries, editing multiple web standards implemented in all modern browsers, and for 
+              his public speaking and keynotes at key industry events.<br />
+              <br />
+              Tobie is also sits on the Board of the OpenJSF Foundation, is Vice Chair of the 
+              Foundation Cross Project Council, and sits on W3C&#39;s Board Audit Committee.
+
+    title   : The Missing Post Mortem
+    abstract: >-
+              The first half of 2024 saw an entirely new category of threat against open source, one 
+              that rocked its trust-based system at its core&#58; social engineering takeover attempt 
+              of critical open source projects.<br />
+              <br />
+              These attacks uncovered a systemic gap in open source security management.<br />
+              <br />
+              Up until now, the open source community wasn’t thought of as a potential cyber attack 
+              target. But when critical open source projects become stepping stones for industrial 
+              espionage, ransomware attacks, or cyberwarfare, maintainers need to adopt comparable 
+              security practices to those found in target organizations.<br />
+              <br />
+              This creates a unique set of challenges for open source because of its highly distributed 
+              nature and volunteer-based model. Meaningfully improving security at scale while preserving 
+              the ethos, culture, and diversity of communities that characterize open source and that are 
+              largely responsible for its innovative potential isn&#39;t an easy task.<br />
+              <br />
+              In this talk we&#39;ll do a post-mortem of the social engineering takeover attempt at the 
+              OpenJS Foundation. While preserving confidentiality, we&#39;ll outline industry gaps 
+              uncovered during this attack. We&#39;ll suggest ways to meaningfully improving security at 
+              scale while preserving the ethos, culture, and diversity of communities that characterize 
+              open source and that are largely responsible for its success.
+    linkedin: https://www.linkedin.com/in/tobielangel/
+    x_handle: https://x.com/tobie
     feed    : 
     url     : 
     urltag  : 
