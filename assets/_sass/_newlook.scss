@@ -32,7 +32,8 @@
     border-radius: 2px;
     font-family: inter;
     font-weight: 500;
-    width:fit-content
+    width:fit-content;
+    text-decoration: none;
 }
 
 .btn-mini {
@@ -419,7 +420,7 @@ li {
     .btn, .btn-mini {
         font-size: 14px;
         padding: 10px 20px;
-        width:100%
+        width:90%
     }
 
     .head-sub-button {
