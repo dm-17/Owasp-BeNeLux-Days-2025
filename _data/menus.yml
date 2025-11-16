@@ -32,8 +32,8 @@
   items:
   - title: About OWASP
     url  : about
-#  - title: Team
-#    url  : about/team
+  - title: Team
+    url  : about/team
   - title: Previous BeNeLux days
     url  : about/previous-benelux-days
   - title: Code of Conduct

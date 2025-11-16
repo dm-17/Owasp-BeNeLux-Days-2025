@@ -1,19 +1,6 @@
 ---
-title: The OWASP BeNeLux Program Committee
+title: The OWASP BeNeLux 2025 Program Committee
+layout: team
 ---
 
-<!-- This one may require some updates? -->
 
-# OWASP Netherlands chapter
-* Joren Poll
-* Edwin Gozeling
-* Irfaan Santoe
-* Priyam Awasthy
-* Amit Sharma
-
-# OWASP Belgium chapter
-* Sebastien Deleersnyder
-* Lieven Desmet
-* David Mathy
-* Stella Dineva
-* Maxim Baele
