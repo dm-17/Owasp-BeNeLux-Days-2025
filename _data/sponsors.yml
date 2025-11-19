@@ -73,11 +73,11 @@
   #   level    : Gold
   #   style    :
 
-  # - image    : semgrep.png
-  #   name     : Semgrep
-  #   url      : https://semgrep.dev
-  #   level    : Social event
-  #   style    :
+  - image    : semgrep.png
+    name     : Semgrep
+    url      : https://semgrep.dev
+    level    : Social event
+    style    :
 
   # - image    : nviso.png
   #   name     : NVISO
