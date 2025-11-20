@@ -131,3 +131,43 @@
     urltag  : 
     display : yes
     confirmed: yes
+
+  - type    : training
+    image  : Thomas-Vissers.png
+    image2  : Tim-Van-Hamme.png
+    day     : 3/12/2025
+    time    : 09:00 - 17:00
+    name    : Thomas Vissers
+    name2   : Tim Van Hamme
+    bio     : >-
+              Thomas Vissers specializes in the dynamic intersection of cybersecurity and AI. 
+              He packs 10 years of experience in developing and operating production-grade AI 
+              security systems. Previously at Cloudflare, he served as an engineering leader 
+              for data-driven security products, scaling innovations to protect millions of 
+              internet users worldwide. Today at KU Leuven, Thomas focuses on empowering 
+              organizations to securely and reliably leverage LLM technology.
+              <br /><br />Tim Van hamme is a computer scientist specialized in AI security and behavioral analysis, 
+              leading research at KU Leuven's DistriNet on secure and trustworthy AI adoption. 
+              As co-lead of Blue41, he bridges rigorous academic research with industry applications, 
+              helping organizations safely deploy AI systems. With experience spanning from CERT.be's 
+              threat intelligence infrastructure to behavioral biometrics and AI agent security, 
+              Tim combines theoretical expertise with practical solutions for emergent AI security challenges.
+    title   : Hacking AI Guardrails Workshop (LISA)
+    abstract: >-
+              In this workshop, participants will get hands-on experience both building and breaking 
+              AI guardrails. Working in teams, you’ll design guardrail policies to defend sensitive 
+              data within a vulnerable AI application, while attempting to bypass those of others. 
+              Who will win? The scoreboard will tell, but in the end everyone walks away with a 
+              deeper grasp of how LLMs can be manipulated and the challenges of building robust guardrails.
+              <br />This workshop is delivered as part of the VLAIO research project LISA.
+    feed    :
+    url     : https://distrinet.cs.kuleuven.be/projects/LISA
+    linkedin: https://www.linkedin.com/in/thomasvissers/
+    linkedin2: https://be.linkedin.com/in/tim-van-hamme-987942100
+    x_handle:
+    reqs    : >-
+              Requirements: laptop that can SSH into external machine. 
+              <br />Optional: running Python locally and an IDE.
+    urltag  : 
+    display : yes
+    confirmed: yes
