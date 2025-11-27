@@ -40,7 +40,7 @@
   - type    : talk
     image   : Vera-Rim.jpg
     day     : 2/12/2025
-    time    : 16:30 - 17:15
+    time    : 16:20 - 17:05
     name    : Vera Rimmer
     bio     : >-
               Dr. Vera Rimmer is a research expert at the DistriNet research group at 
@@ -73,7 +73,7 @@
   - type    : talk
     image   : Tobie-Langel.jpg
     day     : 2/12/2025
-    time    : 15:45 - 16:30
+    time    : 15:40 - 16:20
     name    : Tobie Langel
     bio     : >-
               Tobie Langel is the Founder and Principal of UnlockOpen, a boutique consulting 
@@ -136,7 +136,7 @@
   - type    : talk
     image   : Siegfried-Hollerer.png
     day     : 2/12/2025
-    time    : 11:15 - 12:00
+    time    : 11:10 - 11:50
     name    : Siegfried Hollerer
     bio     : >-
               Siegfried has seven years of experience as a penetration tester, 
@@ -227,7 +227,7 @@
   - type    : talk
     image   : Efthymios-Lalas.png
     day     : 2/12/2025
-    time    : 10:00 - 10:45
+    time    : 10:00 - 10:40
     name    : Efthymios Lalas
     bio     : >-
               Efthymios has been with the European Commission in Luxembourg since 2014 and is 
@@ -267,7 +267,7 @@
   - type    : talk
     image   : Aram-Hovsepyan.jpg
     day     : 2/12/2025
-    time    : 13:45 - 14:30
+    time    : 13:40 - 14:20
     name    : Aram Hovsepyan
     bio     : >-
               Aram is the founder and the CEO of Codific. With over 15 years of application security 
@@ -308,7 +308,7 @@
   - type    : talk
     image   : Elar-Lang.jpg
     day     : 2/12/2025
-    time    : 14:30 - 15:15
+    time    : 14:30 - 15:10
     name    : Elar Lang
     bio     : >-
               Elar Lang is a web application security specialist and enthusiast who has been working for 
@@ -349,7 +349,7 @@
   - type    : talk
     image   : Olle-E-Johansson.jpg
     day     : 2/12/2025
-    time    : 12:00 - 12:45
+    time    : 12:00 - 12:40
     name    : Olle E Johansson
     bio     : >- 
               Olle E. Johansson has over twenty years of experience in telecommunications, VoIP, and 
@@ -380,31 +380,27 @@
 
   - type    : break
     day     : 2/12/2025
-    time    : 10:45 - 11:15
+    time    : 10:40 - 11:10
     title   : Break
     display : yes
 
   - type    : break
     day     : 2/12/2025
-    time    : 12:45 - 13:45
+    time    : 12:40 - 13:40
     title   : Lunch
     display : yes
 
 
   - type    : break
     day     : 2/12/2025
-    time    : 15:15 - 15:45
+    time    : 15:10 - 15:40
     title   : Break
     display : yes
 
   - type    : break
     day     : 2/12/2025
-    time    : 17:15 - 17:30
+    time    : 17:05 - 17:30
     name    : Owasp BeNeLux Team
     title   : Closing
     display : yes
 
-  # - day     : 2/12/2025
-  #   time    : 17:45 - 18:45
-  #   name    : Owasp BeNeLux Team
-  #   title   : Let's have a drink altogether!
