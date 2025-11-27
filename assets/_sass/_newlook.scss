@@ -622,7 +622,7 @@ li {
     .dropdown {
         position: relative !important;
         display: block !important;
-        margin-bottom:.5rem !important
+        margin-bottom:-10rem !important
     }
 
     .dropdown-content {
@@ -634,7 +634,7 @@ li {
         box-shadow: none !important;
         top: auto !important;
         left: auto !important;
-        border-radius:0 !important
+        border-radius:0 !important;
     }
 
     .parent-link {
@@ -653,7 +653,7 @@ li {
         background: white !important;
         font-size: 16px !important;
         font-weight: 500 !important;
-        margin-top:1rem !important
+        margin-top:0rem !important
     }
 
     .child-link:hover, .parent-link:hover {

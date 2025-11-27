@@ -4,9 +4,9 @@
         <div class="left-icon"></div>
     </a>
     <div class="right-links">
+      <div class="dropdown">
     {% for menu in site.data.menus %}
       {% if menu.items %}
-      <div class="dropdown">
           {% if menu.url %}
             {% if menu.url contains '://' %}
               {% assign topurl = {{menu.url}} %}
@@ -16,8 +16,8 @@
           {% else %}
             {% assign topurl = "#" %}
           {% endif %}
-        <a class="link"  href="{{topurl}}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{menu.title}}</a>
-          <div class="dropdown-content">
+        <a class="link parent-link"  href="{{topurl}}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{menu.title}}</a>
+         <div class="dropdown-content">
           {% for item in menu.items %}
               {% if item.url contains '://' %}
                   <a class="link child-link" href="{{item.url}}" data-discover="true">{{item.title}}</a>
@@ -26,17 +26,15 @@
               {% endif %}
           {% endfor %}
             </div>
-        </div>
       {% else %}
-        
           {% if menu.url contains '://' %}
-            <a class="link" href="{{menu.url}}" data-discover="true">{{menu.title}}</a>
+            <a class="link parent-link" href="{{menu.url}}" data-discover="true">{{menu.title}}</a>
           {% else %}
-            <a class="link" href="{{ site.baseurl }}/{{menu.url}}" data-discover="true">{{menu.title}}</a>
+            <a class="link parent-link" href="{{ site.baseurl }}/{{menu.url}}" data-discover="true">{{menu.title}}</a>
           {% endif %}
-        
       {% endif %}
     {% endfor %}
+  </div>
     </div>
     <div class="navigation-opener">
       <a href="javascript:void(0);" onclick="burgerToggle()"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" class="nav-opiner" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
