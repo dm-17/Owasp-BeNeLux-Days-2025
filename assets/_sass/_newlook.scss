@@ -362,7 +362,7 @@ li {
 
 .nav-bar .right-links {
     display: flex;
-    gap:20px
+    gap:20px;
 }
 
 .nav-bar .right-links a {
@@ -498,7 +498,7 @@ li {
     }
 
     .nav-bar .right-links {
-        margin-top: 60px;
+        margin-top: 0px;
         padding: 20px 0;
         width:100%
     }
@@ -555,8 +555,6 @@ li {
     .navigation-opener {
         display:inline
     }
-
-
 
     .links {
         display: flex;
@@ -622,7 +620,7 @@ li {
     .dropdown {
         position: relative !important;
         display: block !important;
-        margin-bottom:-10rem !important
+        margin-bottom:.5rem !important
     }
 
     .dropdown-content {
