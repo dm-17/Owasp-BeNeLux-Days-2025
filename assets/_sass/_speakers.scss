@@ -597,4 +597,19 @@
         font-weight: 300;
         color:#222
     }
+
+    .speakers .speaker-ar .highlight {
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 20px auto;
+    }
+
+    .speakers .speaker-ar .highlight .right {
+        margin-top: 50px;
+        margin-right: 5px !important;
+    }
+
+    .speakers .speaker-ar .highlight .right .name {
+        margin-right: 5px;
+    }
 }
