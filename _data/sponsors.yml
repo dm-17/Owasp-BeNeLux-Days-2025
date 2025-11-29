@@ -67,11 +67,11 @@
   #   level    : Gold
   #   style    : 
 
-  # - image    : semgrep.png
-  #   name     : Semgrep
-  #   url      : https://semgrep.dev
-  #   level    : Gold
-  #   style    :
+  - image    : semgrep.png
+    name     : Semgrep
+    url      : https://semgrep.dev
+    level    : Gold
+    style    :
 
   - image    : semgrep.png
     name     : Semgrep
